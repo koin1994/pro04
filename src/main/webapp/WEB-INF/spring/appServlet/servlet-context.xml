@@ -27,14 +27,19 @@
 	<resources mapping="/check/**" location="/WEB-INF/views/check" />
 	<resources mapping="/user/**" location="/WEB-INF/views/user" />
 	<resources mapping="/free/**" location="/WEB-INF/views/free" />
-	
+	<resources mapping="/brand/**" location="/WEB-INF/views/brand" />
+	<resources mapping="/work/**" location="/WEB-INF/views/work" />
+	<resources mapping="/company/**" location="/WEB-INF/views/company" />
+
 	<!-- 리졸버에 대한 접두사와 접미사 설정 -->
 	<!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
-	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+	<beans:bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+		primary="true">
 		<beans:property name="prefix" value="/WEB-INF/views/" />
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
-	
+
 	<!-- 멀티파트 리졸버 설정 -->
 	<beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
 		<beans:property name="maxUploadSize" value="10485760" /> <!-- 10mb 제한 -->
@@ -47,6 +52,9 @@
 		
 	<!-- 기본 메인 패키지 및 컨트롤러 패키지 설정 -->
 	<context:component-scan base-package="com.dongwon" />
+	
+	<!-- 인터셉터 : 글쓰기와 같은 회원권한을 가진 경우는 반드시 로그인 페이지를 거쳐서 시도할 것  -->
+	<!-- <beans:bean id="loginInterceptor" class="com.cj.util.LoginInterceptor" /> -->
 	
 	<!-- 트랜잭션 및 DB 패키지 방안 및 각 종 로깅과 보안 설정 -->
 	

@@ -23,7 +23,7 @@
     </header>
 	<div class="content" id="content">
 	    <div class="row column text-center">
-	      <h2 class="h1">공지사항 목록</h2>
+	      <h2 class="h1">공지사항</h2>
 	      <hr>
 	      <div class="container">
 		      <table>

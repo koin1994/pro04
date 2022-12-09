@@ -7,18 +7,19 @@
 <!-- 푸터 내용 기술 -->
 <article class="ft_wrap">
 	<div class="footer-nav-left">
-	  <p class="footer-copyright">ⓒ 2015 동원F&B. All rights reserved.</p>
+		<img src="https://www.dongwonfnb.com/Images/Common/logo_footer03.png">
+	  <p class="footer-copyright">ⓒ 2015 동원. All rights reserved.</p>
 	</div>
 	<div class="footer-nav-center">
 	  <ul class="footer-nav-menu">
 	    <li class="footer-nav-item">
-	      <a href="https://get.foundation/develop/getting-started.html">법적고지</a>
+	      <a href="https://www.dongwonfnb.com/services/Etc/Terms">법적고지</a>
 	    </li>
 	    <li class="footer-nav-item">
-	      <a href="https://get.foundation/get-involved/support.html">개인정보처리방침</a>
+	      <a href="https://www.dongwonfnb.com/services/Etc/Privacy">개인정보처리방침</a>
 	    </li>
 	    <li class="footer-nav-item">
-	      <a href="https://get.foundation/sites/docs/">정도경영신고센터</a>
+	      <a href="https://www.dongwon.com/ethics/report/write">정도경영신고센터</a>
 	    </li>
 	  </ul>
 	</div>

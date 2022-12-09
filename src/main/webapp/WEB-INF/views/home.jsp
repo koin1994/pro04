@@ -21,47 +21,76 @@
 </header>
 <div id="content">
 	<div class="container">
-		<h2 class="h1">Brand</h2>
-		
-	</div>
-	<div class="container">
-		<ul class="tabs" data-responsive-accordion-tabs="tabs medium-accordion large-tabs" id="example-tabs">
-		  <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">동원</a></li>
-		  <li class="tabs-title"><a href="#panel2">양반</a></li>
-		  <li class="tabs-title"><a href="#panel3">Danmark</a></li>
-		  <li class="tabs-title"><a href="#panel4">소와나무</a></li>
-		  <li class="tabs-title"><a href="#panel5">개성</a></li>
-		  
-		</ul>
-
-	<div class="tabs-content" data-tabs-content="example-tabs">
-		  <div class="tabs-panel is-active" id="panel1">
-		 	<img class="thumbnail" src="https://www.dongwonfnb.com/Images/Common/gnb_thumb01.jpg">
-		     <p>모두가 트렌드를 앞다퉈 말할때, 원칙을 지키고 묵묵히 건강한 음식을 만드는 사람들이 있습니다.
-				건강한 음식의 기본을 연구하고 확신이 들때까지 망설이는 사람들.
-				동원은 정직한 재료로 맛있고 건강한 제품을 만듭니다.</p>
+	<div class="text-center">
+          <h1>Brand</h1>
+        <hr>
+        </div>
+          <div class="grid-x grid-margin-x small-up-2 medium-up-3 large-up-6">
+          <div class="cell">
+            <img class="thumbnail" src="https://www.dongwonfnb.com/Images/Common/gnb_thumb01.jpg">
+             <a href="#" class="clear button secondary so-basic expanded hollow">건강한 식생활의 <br> 기본</a>
+          </div>
+          <div class="cell">
+            <img class="thumbnail" src="https://www.dongwonfnb.com/Images/Common/gnb_thumb02.jpg">
+            
+            <a href="#" class="clear button secondary so-basic expanded hollow">현대적으로 재탄생한 <br> 전통의 맛과 멋</a>
+          </div>
+          <div class="cell">
+            <img class="thumbnail" src="https://www.dongwonfnb.com/Images/Common/gnb_thumb04.jpg">
+           
+            <a href="#" class="clear button secondary so-basic expanded hollow">세계 수준의 <br> 고급 유제품</a>
+          </div>
+          <div class="cell">
+            <img class="thumbnail" src="https://www.dongwonfnb.com/Images/Common/gnb_thumb05.jpg">
+            
+            <a href="#" class="clear button secondary so-basic expanded hollow">자연의 행복을 <br> 담은 우유</a>
+          </div>
+          <div class="cell">
+            <img class="thumbnail" src="https://www.dongwonfnb.com/Images/Common/gnb_thumb06.jpg">
+            
+            <a href="#" class="clear button secondary so-basic expanded hollow">맛있고 푸짐한 <br> 동원 개성 만두</a>
+          </div>
+          <div class="cell">
+            <img class="thumbnail" src="https://www.dongwonfnb.com/Images/Common/gnb_thumb07.jpg">
+            
+            <a href="#" class="clear button secondary so-basic expanded hollow">진짜 게살이 들어가 <br> 맛있다!</a>
+          </div>
+        </div>
+        <hr>
+         <h1>Social Live</h1>
+       <div class="grid-container">
+		  <div class="grid-x grid-margin-x small-up-2 medium-up-3">
+		    <div class="cell">
+		      <div class="card">
+		        <img src="https://www.dongwonfnb.com/upload/2022/04/26/11/34/1650940476250/dda9cab5c1c44dc7bd08790fce3866a2.jpg">
+		        <div class="card-section">
+		        <h4>[전지적 동원 시점]K-치즈의 고소한 풍미, 덴마크 리코타치즈!</h4>
+		          <p>2022-04-26 11:34:36</p>
+		        </div>
+		      </div>
+		    </div>
+		    <div class="cell">
+		      <div class="card">
+		        <img src="https://www.dongwonfnb.com/upload/2022/04/26/11/34/1650940456737/67b70e43d58f4735afa64f181971db5a.jpg">
+		        <div class="card-section">
+		          <h4>[요리감상] Ep 10 늦은 아침 크루아상 샌드위치와 커피 한잔의 여유로움 어때?</h4>
+		          <p>2022-04-26 11:34:17</p>
+		        </div>
+		      </div>
+		    </div>
+		    <div class="cell">
+		      <div class="card">
+		        <img src="https://www.dongwonfnb.com/upload/2022/04/26/11/33/1650940420728/818d2d22aaa64d2b9d334e60d1b54835.jpg">
+		        <div class="card-section">
+		          <h4>[동원TV X 미식일기] 아이들 사이에서 인기만점 병아리 핫도그~</h4>
+		          <p>2022-04-26 11:33:40</p>
+		        </div>
+		      </div>
+		    </div>
 		  </div>
-		  <div class="tabs-panel" id="panel2">
-		    <img class="thumbnail" src="https://www.dongwonfnb.com/Images/Common/gnb_thumb02.jpg">
-		    <p>양반은 믿을 수 있는 건강한 원재료를 사용하여 정통 한식의 맛과 영양을 누구나 맛있게 즐길 수 있도록
-			     현대적으로 재해석한 프리미엄 한식 브랜드입니다.</p>
-		  </div>
-		  <div class="tabs-panel" id="panel3">
-		    <img class="thumbnail" src="https://www.dongwonfnb.com/Images/Common/gnb_thumb04.jpg">
-		    <p>덴마크는 100% 국산 1A 등급 원유를 사용하여 국내 최초 덴마크식 정통살균법(HTST)으로 만든
-			     프리미엄 유제품 브랜드입니다.</p>
-		  </div>
-		  <div class="tabs-panel" id="panel4">
-		    <img class="thumbnail" src="https://www.dongwonfnb.com/Images/Common/gnb_thumb05.jpg">
-		    <p>소와나무는 1963년부터 축적된 노하우와 기술을 바탕으로 만드는 유가공 브랜드로
-			     소의 넉넉한 마음과 나무의 정직함을 담았습니다.</p>
-		  </div>
-		  <div class="tabs-panel" id="panel5">
-		    <img class="thumbnail" src="https://www.dongwonfnb.com/Images/Common/gnb_thumb06.jpg">
-		    <p>신선한 재료로 속은 꽉 채우고 만두피는 얇게 빚어 더욱 맛있는 대한민국 대표 만두 입니다.
-			   100% 국내산 야채와 100% 청정 지역 제주산 돼지고기로 만들어 더욱 믿을 수 있습니다.</p>
-		  </div>
-	</div>
+		</div>
+  </div>
+</div>
 </div>	
 </div>
 
