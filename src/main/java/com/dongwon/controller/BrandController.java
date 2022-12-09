@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class BrandController {
 
 	@GetMapping("/brand.do")
-	public String city() throws Exception{
+	public String brand() throws Exception{
 		return "brand/brand";
 	}
 	
 	@GetMapping("/menu.do")
-	public String natural() throws Exception{
+	public String menu() throws Exception{
 		return "brand/menu";
 	}
 }

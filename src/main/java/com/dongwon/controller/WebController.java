@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class WebController {
 	
 	@GetMapping("/ceo.do")
-	public String management() throws Exception{
+	public String ceo() throws Exception{
 		return "company/ceo";
 	}
 	
 	@GetMapping("/intro.do")
-	public String company() throws Exception{
+	public String intro() throws Exception{
 		return "company/intro";
 	}
 }
